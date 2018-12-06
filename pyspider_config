@@ -1,0 +1,17 @@
+{
+  "taskdb": "mysql+taskdb://pyspider:pyspider-pass@127.0.0.1:3306/taskdb",
+  "projectdb": "mysql+projectdb://pyspider:pyspider-pass@127.0.0.1:3306/projectdb",
+  "resultdb": "mysql+resultdb://pyspider:pyspider-pass@127.0.0.1:3306/resultdb",
+  "message_queue": "redis://127.0.0.1:6379/db",
+  "phantomjs-proxy": "127.0.0.1:25555",
+  "scheduler" : {
+    "xmlrpc-host": "0.0.0.0",
+    "delete-time": 3600
+  },
+  "webui": {
+    "port": 5555,
+    "username": "heartblood",
+    "password": "pyspider-pass",
+    "need-auth": true
+  }
+}
