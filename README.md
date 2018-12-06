@@ -1,6 +1,6 @@
 # MyPy
 
-#python 开发脚手架  
+- python 开发脚手架  
 #awesome python  
 #pymysql  
 #pymongo  
