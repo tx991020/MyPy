@@ -12,6 +12,7 @@
 - elasticsearch  
 - subprocess  
 - gevent  
-- requests  
+- requests
+- retry
 - flask  
 - django  
